@@ -49,8 +49,6 @@ Wire Wire Line
 	5200 3150 6050 3150
 Wire Wire Line
 	6200 3900 6050 3900
-Wire Wire Line
-	6050 3350 6050 3150
 Connection ~ 6050 3150
 Wire Wire Line
 	6050 3150 6200 3150
@@ -85,17 +83,6 @@ F 3 "~" H 5000 3150 50  0001 C CNN
 	1    5000 3150
 	-1   0    0    -1  
 $EndComp
-$Comp
-L Device:Fuse F1
-U 1 1 5E40251C
-P 6050 3500
-F 0 "F1" H 6110 3546 50  0000 L CNN
-F 1 "Fuse" H 6110 3455 50  0000 L CNN
-F 2 "Fuse_Holders_and_Fuses:Fuseholder5x20_horiz_open_lateral_Type-II" V 5980 3500 50  0001 C CNN
-F 3 "~" H 6050 3500 50  0001 C CNN
-	1    6050 3500
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	5200 3650 5550 3650
 Wire Wire Line
@@ -113,7 +100,7 @@ Wire Wire Line
 Wire Wire Line
 	5450 3750 5450 4500
 Wire Wire Line
-	6050 3900 6050 3650
-Wire Wire Line
 	5200 3050 6200 3050
+Wire Wire Line
+	6050 3150 6050 3900
 $EndSCHEMATC
