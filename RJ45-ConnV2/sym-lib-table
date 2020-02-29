@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name MiniWatt_RJ45-2-Conn_V1-rescue)(type Legacy)(uri ${KIPRJMOD}/MiniWatt_RJ45-2-Conn_V1-rescue.lib)(options "")(descr ""))
+  (lib (name MiniWatt_RJ45-2-Conn_V2-rescue)(type Legacy)(uri ${KIPRJMOD}/MiniWatt_RJ45-2-Conn_V2-rescue.lib)(options "")(descr ""))
+)
